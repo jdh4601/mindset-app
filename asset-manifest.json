@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mindset-app/static/css/main.9ce6976a.css",
+    "main.js": "/mindset-app/static/js/main.1829dd03.js",
+    "index.html": "/mindset-app/index.html",
+    "main.9ce6976a.css.map": "/mindset-app/static/css/main.9ce6976a.css.map",
+    "main.1829dd03.js.map": "/mindset-app/static/js/main.1829dd03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ce6976a.css",
+    "static/js/main.1829dd03.js"
+  ]
+}
