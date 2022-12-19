@@ -1,0 +1,10 @@
+.btn-container {
+  width: 100vw;
+  height: 40px;
+  padding: 0 25px;
+}
+
+.toggle-btn {
+  background-color: #1c2031;
+  font-size: 21px;
+}

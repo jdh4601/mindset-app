@@ -1,0 +1,40 @@
+.quotes-container {
+  width: 340px;
+  height: 176px;
+  background-image: linear-gradient(to right, #441dfc, #4e81eb);
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+
+.text-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon1 {
+  color: white;
+  margin-right: 10px;
+}
+
+.sub-text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.align-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main-text {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
