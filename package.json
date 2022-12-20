@@ -2,7 +2,7 @@
   "name": "mindset_clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jdh4601.github.io/mindset-app",
+  "homepage": "https://jdh4601.github.io/mindset-app/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
