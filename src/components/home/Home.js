@@ -4,7 +4,7 @@ import { BiSearchAlt2 } from 'react-icons/bi';
 import { FaLeaf } from 'react-icons/fa';
 import ToggleButtonGroupUncontrolled from '../UI/ToggleButtonGroupUncontrolled';
 import Cards from '../UI/Cards';
-import TabNavigation from './TabNavigation';
+import TabNavigation from '../UI/TabNavigation';
 import './Home.css';
 
 const Home = () => {
@@ -28,9 +28,7 @@ const Home = () => {
           <Cards name="Tips For Sleeping" color="blue" />
         </div>
       </div>
-      <div className="wrapper">
-        <TabNavigation />
-      </div>
+      <TabNavigation />
     </div>
   );
 };

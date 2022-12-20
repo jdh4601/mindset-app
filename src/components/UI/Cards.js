@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.button`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -41,7 +41,7 @@ const ContentName = styled.p`
 
 const Cards = ({ name, color }) => {
   return (
-    <StyledContainer color={color}>
+    <StyledContainer color={color} type="button">
       <ContentName>{name}</ContentName>
     </StyledContainer>
   );
