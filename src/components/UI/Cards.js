@@ -9,6 +9,7 @@ const StyledContainer = styled.button`
   width: 150px;
   height: 125px;
   border-radius: 20px;
+  border-style: none;
   ${({ color }) =>
     color === 'blue' &&
     `
@@ -39,9 +40,9 @@ const ContentName = styled.p`
   color: white;
 `;
 
-const Cards = ({ name, color }) => {
+const Cards = ({ name, color, moveTo }) => {
   return (
-    <StyledContainer color={color} type="button">
+    <StyledContainer color={color} onClick={moveTo}>
       <ContentName>{name}</ContentName>
     </StyledContainer>
   );
