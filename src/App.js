@@ -7,6 +7,8 @@ import TipsForSleep from './components/tips/TipsForSleep';
 import DailyMood from './components/mood/DailyMood';
 import Profile from './components/profile/Profile';
 import Statistic from './components/statistic/Statistic';
+import './App.css';
+
 function App() {
   return (
     <>

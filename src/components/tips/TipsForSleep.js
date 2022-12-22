@@ -1,7 +1,11 @@
 import React from 'react';
 
 const TipsForSleep = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1>TipsForSleep</h1>
+    </div>
+  );
 };
 
 export default TipsForSleep;
