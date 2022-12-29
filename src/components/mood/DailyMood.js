@@ -1,9 +1,30 @@
 import React from 'react';
+import './DailyMood.css';
 
 const DailyMood = () => {
+  const onClickHandler = e => {
+    e.preventDefaut();
+  };
+
   return (
     <div>
-      <h1>Daily Mood</h1>
+      <div className="container">
+        <div onClick={onClickHandler} className="emotion" value="smile">
+          😃
+        </div>
+        <div onClick={onClickHandler} className="emotion" value="happy">
+          😄
+        </div>
+        <div onClick={onClickHandler} className="emotion" value="soso">
+          🙂
+        </div>
+        <div onClick={onClickHandler} className="emotion" value="sad">
+          🥲
+        </div>
+        <div onClick={onClickHandler} className="emotion" value="depression">
+          😣
+        </div>
+      </div>
     </div>
   );
 };

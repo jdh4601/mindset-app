@@ -1,19 +1,18 @@
 .quotes-container {
-  width: 340px;
+  width: 372px;
   height: 176px;
   background-image: linear-gradient(to right, #441dfc, #4e81eb);
   border-radius: 20px;
   padding: 20px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 60px;
 }
 
 .text-align {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 .icon1 {
@@ -37,4 +36,5 @@
   color: white;
   font-weight: bold;
   margin-top: 10px;
+  font-size: 20px;
 }
