@@ -41,9 +41,13 @@ const DiaryList = () => {
               <p className="content-text">{records.content1}</p>
               <p className="content-text">{records.content2}</p>
               <p className="content-text">{records.content3}</p>
+              <p className="content-text">{records.content4}</p>
+              <p className="content-text">{records.content5}</p>
+              <p className="content-text">{records.content6}</p>
             </div>
           </li>
         ))}
+        <div className="padding-bot"></div>
         <TabNavigation />
       </div>
     </>
