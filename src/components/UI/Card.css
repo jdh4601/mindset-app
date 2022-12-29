@@ -1,0 +1,27 @@
+.sub-title {
+  font-size: 22px;
+  color: white;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+
+.align-box {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nextBtn {
+  margin-left: auto;
+}

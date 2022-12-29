@@ -9,7 +9,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 40px 30px;
+  padding: 10px 30px;
 }
 
 .title {
@@ -33,22 +33,39 @@
   color: #515979;
   font-size: 19px;
   margin-left: 25px;
-  margin-top: 30px;
+  margin-top: 10px;
+}
+
+.main-text {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.text-align {
+    display: flex;
+    margin: 0 20px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 35px;
-  align-items: space-between;
-  justify-content: space-between;
-  place-items: center;
-  margin: 10px auto;
-  position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
   width: 100%;
   height: 50px;
+}
+
+.align-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }

@@ -7,10 +7,9 @@ const Quotes = () => {
       <div className="quotes-container">
         <div className="text-align">
           <ImQuotesLeft size={20} className="icon1" />
-          <p className="sub-text">Daily Quote</p>
         </div>
         <div className="align-box">
-          <h1 className="main-text">"Quotes..."</h1>
+          <h1 className="main-text">"가벼운 산책 하기"</h1>
         </div>
       </div>
     </>
