@@ -46,8 +46,8 @@ const Cards = ({ color, moveTo }) => {
     <StyledContainer color={color} onClick={moveTo}>
       <p className="sub-title">어제의 다짐</p>
       <div className="text-container">
-        <p className="text">1. 밥먹기</p>
-        <p className="text">2. 산책 하기</p>
+        <p className="text">1. 하루를 활기차게 시작하기</p>
+        <p className="text">2. 기분 좋은 산책 하기</p>
       </div>
       <div className="align-box">
         <Button

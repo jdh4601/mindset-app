@@ -10,31 +10,15 @@
 
 .text-align {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 50px;
-}
-
-.icon1 {
-  color: white;
-  margin-right: 10px;
-}
-
-.sub-text {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-
-.align-box {
-  display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  padding-top: 40px;
 }
 
-.main-text {
+.text-align .main-text {
   color: white;
   font-weight: bold;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }

@@ -1,5 +1,6 @@
 .home {
   background-color: #1c2031;
+  /* background-color: #ece6cc; */
   width: 100vw;
   height: 100vh;
 }
@@ -9,7 +10,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 10px 30px;
+  padding: 20px 30px;
 }
 
 .title {
@@ -37,24 +38,25 @@
 }
 
 .main-text {
-    color: #ffff;
-    font-size: 20px;
-    margin-left: 30px;
+  color: #ffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
 }
 
 .text-align {
-    display: flex;
-    margin: 0 20px;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  margin: 0 20px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .card-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -63,9 +65,9 @@
 }
 
 .align-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }

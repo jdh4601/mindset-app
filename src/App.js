@@ -6,6 +6,7 @@ import DailyMood from './components/mood/DailyMood';
 import Profile from './components/profile/Profile';
 import Statistic from './components/statistic/Statistic';
 import Calendar from './components/mood/Calendar';
+import DiaryList from './components/diary/DiaryList';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/statistic" element={<Statistic />} />
+        <Route path="/diarylist" element={<DiaryList />} />
       </Routes>
     </>
   );
