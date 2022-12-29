@@ -11,10 +11,6 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate();
 
-  const moveToDailymood = () => {
-    navigate('/dailymood');
-  };
-
   const viewCalendar = () => {
     navigate('/calendar');
   };
@@ -37,10 +33,10 @@ const Home = () => {
           <div className="text-align">
             <p className="main-text">🙂 오늘의 기분</p>
             <p onClick={viewCalendar} className="subtext">
-              View All
+              전체보기
             </p>
           </div>
-          <DailyMood moveTo={moveToDailymood} />
+          <DailyMood />
         </div>
         <div className="card-container">
           <div className="text-align">

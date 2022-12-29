@@ -8,7 +8,7 @@ const DailyMood = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="emotion-container">
         <div onClick={onClickHandler} className="emotion" value="smile">
           😃
         </div>
