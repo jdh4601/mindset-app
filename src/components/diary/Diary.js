@@ -83,7 +83,7 @@ const Diary = () => {
           />
         </div>
         <div className="question-box">
-          <p className="question">2. 아침에 기분 좋은 일 2가지</p>
+          <p className="question">2. 요즘 나의 최대 고민은?</p>
           <input
             type="text"
             name="text3"
