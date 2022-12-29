@@ -1,12 +1,12 @@
 import React from 'react';
 import Quotes from '../quote/Quotes';
-import { BiSearchAlt2 } from 'react-icons/bi';
-import { FaLeaf } from 'react-icons/fa';
 import Cards from '../UI/Cards';
 import TabNavigation from '../UI/TabNavigation';
 import DailyMood from '../mood/DailyMood';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
+import { BsList } from 'react-icons/bs';
+import { MdWavingHand } from 'react-icons/md';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -18,11 +18,11 @@ const Home = () => {
   return (
     <div className="home">
       <div className="header-container">
-        <h1 className="title">
-          <FaLeaf size={34} />
-          <p>Mindset</p>
+        <h1 className="title-container">
+          <MdWavingHand className="head-icon" size={30} />
+          <p className="title">소박감</p>
         </h1>
-        <BiSearchAlt2 size={30} className="search" />
+        <BsList className="head-icon" size={30} />
       </div>
       <div className="align-box">
         <p className="main-text">✅ 오늘의 미션</p>

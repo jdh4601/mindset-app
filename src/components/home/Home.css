@@ -10,7 +10,18 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 20px 30px;
+  padding: 10px 30px;
+}
+
+.head-icon {
+  color: white;
+  margin-top: 5px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .title {
@@ -20,10 +31,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+  padding-left: 8px;
 }
-.title p {
+
+.title {
   margin-left: 7px;
-  margin-bottom: 0;
 }
 
 .search {
